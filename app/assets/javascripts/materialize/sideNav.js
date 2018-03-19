@@ -325,7 +325,7 @@
             $body.width(oldWidth);
 
             // Push current drag target on top of DOM tree
-            $('body').html($dragTarget);
+            $('.drag-target').html($dragTarget);
 
             if (options.edge === 'left') {
               $dragTarget.css({ width: '50%', right: 0, left: '' });
